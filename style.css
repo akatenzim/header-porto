@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: tomato;
+    background: linear-gradient(90deg, #ee0ac8 0%, #3d48c0 50%, rgb(132, 134, 241)100%);
+    box-shadow: 0px 3px 5px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-header {
+    display: flex;
+    transition: all 0.5 ease;
+}
+
+.profile-pict-wrapper {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-pict {
+    width: 100px;
+    border: solid 4px;
+    border-color: white;
+    border-radius: 100px;
+    box-shadow: 2px 2px 20px rgb(23, 7, 66);
+    transition: all;
+    transition-duration: 1s;
+}
+
+.profile-pict:hover {
+    transform: rotate(-10deg);
+}
+
+.desc-profile-wrapper {
+    flex: 1.5;
+}
+
+.myName {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.myJob {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.button-wrapper {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+
+.download-cv-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-right: 8px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 25, 83);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.download-cv-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contact-me-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: rgb(41, 41, 41);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.contact-me-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
