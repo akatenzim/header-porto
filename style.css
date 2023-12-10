@@ -38,6 +38,7 @@ header {
 
 .desc-profile-wrapper {
     flex: 1.5;
+    color: white;
 }
 
 .myName {
